@@ -23,6 +23,8 @@ Oracle Hyperion Essbase is highly reliable tool for financial analysts to struct
 
    You don't need to install common libraries anymore.
    
+Now we need to slightly edit our python script that works in the code editor by doing the following steps:
+
 4. Re-pivot the data-read step to the Excel spreadsheet, just like selecting Excel cells
 5. Remove the data export step. Instead, click the small icon to make your output shown on the Excel spreadsheet
 6. Insert Python on the Excel cell or Open Python editor
