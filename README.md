@@ -43,10 +43,10 @@ Now we need to slightly edit our python script that works in the code editor by 
    First, Python Object should be shown by default as we are working in python until this step.
    ![Screenshot 2025-04-15 145113](https://github.com/user-attachments/assets/ee74222d-9a07-4aa5-a7bf-81069f60f772)
 
-  Second, simply click the drop-down to pick Excel Value.
+   Second, simply click the drop-down to pick Excel Value.
   ![Screenshot 2025-04-15 145715](https://github.com/user-attachments/assets/a377f375-d541-4c99-b7e2-95bf3ce8734b)
 
-  The magic moment is here: The output has been in Excel for review.
+   The magic moment is here: The output has been in Excel for review.
   ![Screenshot 2025-04-15 145716](https://github.com/user-attachments/assets/b7e8c995-2b59-4cba-b631-b011b352cf0d)
 
 ## Reference
