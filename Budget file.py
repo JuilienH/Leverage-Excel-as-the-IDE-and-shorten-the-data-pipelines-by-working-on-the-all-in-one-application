@@ -7,7 +7,7 @@ from datetime import datetime as dt
 
 
 ## Scenario:  BUDGET daily volumes
-df_example = pd.read_excel('Essbase output file.xlsx', 'SME', skiprows = 32, nrows=366,  usecols= 'BW:CO',header=None)
+df_example = pd.read_excel('Essbase output file.xlsx', skiprows = 32, nrows=366,  usecols= 'BW:CO',header=None)
 
 #Period column padded in
 df_example['Period'] = pd.date_range(start='1/1/2025', end='12/31/2025', freq='D')
