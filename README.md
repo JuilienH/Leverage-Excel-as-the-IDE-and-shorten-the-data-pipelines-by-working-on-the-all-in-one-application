@@ -9,9 +9,13 @@ When your code development is ready to move in implementation, where you would l
 Oracle Hyperion Essbase is highly reliable tool for financial analysts to structure their finance data. The Excel add-in, Smart View is required to access the data hosted in Essbase. Although querying data on Essbase by hierarchies makes the financial reports easily read, data professionals, like data scientists and programmers would find it quite different from the usual scripting experience. All the data fetching, table joins, computations, and more data manupulation steps are transformed in selection options in many drop-downs, built in the financial-analysis popular tool. Due to the infrastructure divergence, there are challenges to access Essbase by open-source programming languange, such as python. The good news is: Python in Excel is available to Enterprise and Business users.
 ## Example to show business users that our advanced analytics based on python is integrated in Excel
 1. Get your code editor to complete one conversion script: Budget file
+
+Prepare to move the script to production, and the platform is Excel!
+
 2. Find out the location of python in Excel
 ![Screenshot 2025-04-15 112747](https://github.com/user-attachments/assets/d1d0c246-bc0b-4387-8598-0f2ddbb08103)
 
+Python Editor in Excel looks much similar to a coding envrionment:
 
 ![Screenshot 2025-04-15 112811](https://github.com/user-attachments/assets/6acc2b09-53b2-4562-ac53-bfadd9f4a10a)
 
@@ -26,8 +30,11 @@ Oracle Hyperion Essbase is highly reliable tool for financial analysts to struct
 Now we need to slightly edit our python script that works in the code editor by doing the following steps:
 
 4. Re-pivot the data-read step to the Excel spreadsheet, just like selecting Excel cells
-5. Remove the data export step. Instead, click the small icon to make your output shown on the Excel spreadsheet
-6. Insert Python on the Excel cell or Open Python editor
+   
+   ``df_SMB_daily_dv1 = xl("'Essbase Output file",headers=False,header=None,names=["GA","VOL","INVOL","Disco","Net Add"])``
+   
+6. Remove the data export step. Instead, click the small icon to make your output shown on the Excel spreadsheet
+7. Insert Python on the Excel cell or Open Python editor
    
    You can do either like Excel function or the code editor. All we have to do is to drop the whole edited chunk of python script in.
 
