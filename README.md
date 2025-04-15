@@ -1,2 +1,4 @@
-# Excel-as-your-python-IDE
-how to leverage Excel as an independent development environment (IDE) 
+# Excel-as-your-python-IDE and shortern 
+How to leverage Excel as an independent development environment (IDE) for python
+## Background
+When your code development is ready to move in implementation, where you would like it to be? For a small-scope of project, we might just want to create a business-friendly development process to deliver the outputs in the Excel files. Like most programmers, I have tried different "code editors" to install python libraries, create a virtual envrionment prior to the start of off-line development. With current technology advancement, database tools, cloud platforms and any specific tools used in the data pipelines start to share a lot of common ground. That said, the streamlined process is more easier to achieve in these days. The repository is to show you how you can use Excel as the data table, python eidtor, the output files.
