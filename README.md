@@ -31,12 +31,14 @@ Now we need to slightly edit our python script that works in the code editor by 
 
 4. Re-pivot the data-read step to the Excel spreadsheet, just like selecting Excel cells
    
-   ``df_SMB_daily_dv1 = xl("'Essbase Output file",headers=False,header=None,names=["GA","VOL","INVOL","Disco","Net Add"])``
+   ``df_example = xl("'Essbase output file'!B375:F739",headers=False,header=None,names=["GA","VOL","INVOL","Disco","Net Add"])``
    
 6. Remove the data export step. Instead, click the small icon to make your output shown on the Excel spreadsheet
 7. Insert Python on the Excel cell or Open Python editor
    
    You can do either like Excel function or the code editor. All we have to do is to drop the whole edited chunk of python script in.
+
+   ``pd.DataFrame(df_out)``
 
 ## Reference
 https://support.microsoft.com/en-us/office/get-started-with-python-in-excel-a33fbcbe-065b-41d3-82cf-23d05397f53d
