@@ -21,7 +21,7 @@ Python Editor in Excel looks much similar to a coding envrionment:
 
    You don't need to install python by the version anymore.
 
-   You don't have to create virtual environment for each project anymore. Initiation botton shows all the pre-loaded python libraires. If you have specific pre-requisite libraires to be installed, then simply drop the Python import step in.
+   You don't have to create virtual environment for each project anymore. Initiation botton shows all the pre-loaded python libraires. If you have specific pre-requisite libraires to be installed, the Initiation panel is where you can insert more library imports.
    
 ![Screenshot 2025-04-15 112853](https://github.com/user-attachments/assets/6784c364-79f1-4483-8c25-bcb3dea3e85d)
 
@@ -29,17 +29,25 @@ Python Editor in Excel looks much similar to a coding envrionment:
    
 Now we need to slightly edit our python script that works in the code editor by doing the following steps:
 
-4. Re-pivot the data-read step to the Excel spreadsheet, just like selecting Excel cells. the pandas python command ``read_excel`` is no longer needed. Instead, the common Excel cell selection is baked in the python script to make the pandas data frame.
+4. Re-pivot the data-read step to the Excel spreadsheet, just like selecting Excel cells. The pandas python command ``read_excel`` is no longer needed. Instead, the common Excel cell selection is baked in the python script to make the pandas data frame.
    
    ``df_example = xl("'Essbase output file'!B375:F739",header=None)``
    
 6. Remove the data export step. Instead, click the small icon to make your output shown on the Excel spreadsheet
-7. Insert Python on the Excel cell or Open Python editor
    
-   You can work on either the Excel function or the code scripting. All we have to do is to drop the whole edited chunk of python script in. If you are familiar with python development on your local desktop, you might frequantly save the outputs in a folder by using the pandas python command ``to_csv``. Instead, we just need to make sure the output is a data frame as follows: 
+   You can work on either the Excel function or the python script. All we have to do is to drop the whole edited chunk of python script in either places. If you are familiar with python development on your local desktop, you might frequently save the outputs in a folder by using the pandas python command ``to_csv``. Instead, we just need to make sure the output is a data frame as follows: 
 
    ``pd.DataFrame(df_example)``
-8. The most fun part is to switch between Python Object and excel Value in Excel.
+7. The most fun part is to switch between Python Object and Excel Value in Excel.
+   
+   First, Python Object should be shown by default as we are working in python until this step.
+   ![Screenshot 2025-04-15 145113](https://github.com/user-attachments/assets/ee74222d-9a07-4aa5-a7bf-81069f60f772)
+
+  Second, simply click the drop-down to pick Excel Value.
+  ![Screenshot 2025-04-15 145715](https://github.com/user-attachments/assets/a377f375-d541-4c99-b7e2-95bf3ce8734b)
+
+  The magic moment is here: The output has been in Excel for review.
+  ![Screenshot 2025-04-15 145716](https://github.com/user-attachments/assets/b7e8c995-2b59-4cba-b631-b011b352cf0d)
 
 ## Reference
 https://support.microsoft.com/en-us/office/get-started-with-python-in-excel-a33fbcbe-065b-41d3-82cf-23d05397f53d
