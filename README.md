@@ -10,10 +10,17 @@ Oracle Hyperion Essbase is highly reliable tool for financial analysts to struct
 ## Example to show business users that our advanced analytics based on python is integrated in Excel
 1. Get your code editor to complete one conversion: Budget file
 2. Find out the location of python in Excel
-    ### You don't need to install python by the version anymore.
-    ### You don't need to install common libraries anymore.
-3. Re-pivot the data-read step to the Excel spreadsheet, just like selecting Excel cells
-4. Remove the data export step. Instead, click the small icon to make your output shown on the Excel spreadsheet
+
+   You don't need to install python by the version anymore.
+
+   You don't have to create virtual environment for each project anymore.
+
+   You don't need to install common libraries anymore.
+4. Re-pivot the data-read step to the Excel spreadsheet, just like selecting Excel cells
+5. Remove the data export step. Instead, click the small icon to make your output shown on the Excel spreadsheet
+6. Insert Python on the Excel cell or Open Python editor
+   
+   You can do either like Excel function or the code editor. All we have to do is to drop the whole edited chunk of python script in.
 
 ## Reference
 https://support.microsoft.com/en-us/office/get-started-with-python-in-excel-a33fbcbe-065b-41d3-82cf-23d05397f53d
