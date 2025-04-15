@@ -31,7 +31,7 @@ Now we need to slightly edit our python script that works in the code editor by 
 
 4. Re-pivot the data-read step to the Excel spreadsheet, just like selecting Excel cells
    
-   ``df_example = xl("'Essbase output file'!B375:F739",headers=False,header=None,names=["GA","VOL","INVOL","Disco","Net Add"])``
+   ``df_example = xl("'Essbase output file'!B375:F739",headers=False,header=None)``
    
 6. Remove the data export step. Instead, click the small icon to make your output shown on the Excel spreadsheet
 7. Insert Python on the Excel cell or Open Python editor
