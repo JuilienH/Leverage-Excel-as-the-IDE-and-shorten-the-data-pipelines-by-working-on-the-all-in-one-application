@@ -1,8 +1,4 @@
 # Excel and Python: One is the Microsoft licensed application, and the other is the open-source object-oriented languange. So what are they put together for?
-
-How to leverage Excel as an independent development environment (IDE) for python
- 
-Common Python libraires needed: pandas, numpy to initiate the development 
 ## Background
 When your code development is ready to move in implementation, where you would like it to be? For a small-scope of project, we might just want to create a business-friendly development process to deliver the outputs in the Excel files. Like most programmers, I have tried different "code editors" to install python libraries, create a virtual envrionment prior to the start of off-line development. With current technology advancement, database tools, cloud platforms and any specific tools used in the data pipelines start to share a lot of common grounds. That said, the streamlined process is more easier to achieve in these days. The repository is to show you how you can use Excel as the data table, python eidtor, and the output files.
 ## Use case: Output layout conversion from the multidimensional strcuture to the tabular form
@@ -19,13 +15,13 @@ Python Editor in Excel looks much similar to a coding envrionment:
 
 ![Screenshot 2025-04-15 112811](https://github.com/user-attachments/assets/6acc2b09-53b2-4562-ac53-bfadd9f4a10a)
 
-   You don't need to install python by the version anymore.
+   There is no need to install python by the version anymore.
 
-   You don't have to create virtual environment for each project anymore. Initiation botton shows all the pre-loaded python libraires. If you have specific pre-requisite libraires to be installed, the Initiation panel is where you can insert more library imports.
+   There is no need to create virtual environment for each project anymore. Initiation botton shows all the pre-loaded python libraires. If you have specific pre-requisite libraires to be installed, the Initiation panel is where you can insert more library imports.
    
 ![Screenshot 2025-04-15 112853](https://github.com/user-attachments/assets/6784c364-79f1-4483-8c25-bcb3dea3e85d)
 
-   You don't need to install common libraries anymore.
+   There is no need to install common libraries anymore.
    
 Now we need to slightly edit our python script that works in the code editor by doing the following steps:
 
