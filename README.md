@@ -17,13 +17,13 @@ Python Editor in Excel looks much similar to a coding envrionment:
 
    There is no need to install python by the version anymore.
 
-   There is no need to create virtual environment for each project anymore. Initiation botton shows all the pre-loaded python libraires. If you have specific pre-requisite libraires to be installed, the Initiation panel is where you can insert more library imports.
+   There is no need to create virtual environment for each project anymore. Initiation button shows all the pre-loaded python libraires. If you have specific pre-requisite libraires to be installed, the Initiation panel is where you can insert more library imports.
    
 ![Screenshot 2025-04-15 112853](https://github.com/user-attachments/assets/6784c364-79f1-4483-8c25-bcb3dea3e85d)
 
    There is no need to install common libraries anymore.
    
-Now we need to slightly edit our python script that works in the code editor by doing the following steps:
+Now we need to slightly edit the python script that works in the code editor by doing the following steps:
 
 4. Re-pivot the data-read step to the Excel spreadsheet, just like selecting Excel cells. The pandas python command ``read_excel`` is no longer needed. Instead, the common Excel cell selection is baked in the python script to make the pandas data frame.
    
